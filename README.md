@@ -1,0 +1,1 @@
+# MediScan-AI-Powered-Symptom-Checker-and-Prescription-Validator
