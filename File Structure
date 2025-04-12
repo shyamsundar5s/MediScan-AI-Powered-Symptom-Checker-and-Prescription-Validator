@@ -1,0 +1,47 @@
+/MediScan
+│
+├── /frontend
+│   ├── /src
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── components/
+│   │   │   ├── SymptomChecker.js
+│   │   │   ├── PrescriptionValidator.js
+│   │   │   ├── Chatbot.js
+│   │   │   └── DoctorConnect.js
+│   │   ├── styles/
+│   │   │   └── App.css
+│   │   └── utils/
+│   │       └── api.js
+│   └── package.json
+│
+├── /backend
+│   ├── /app
+│   │   ├── main.py
+│   │   ├── routers/
+│   │   │   ├── symptom_checker.py
+│   │   │   ├── prescription_validator.py
+│   │   │   ├── chatbot.py
+│   │   │   └── doctor_connect.py
+│   │   ├── models/
+│   │   │   └── drug_interaction.py
+│   │   └── utils/
+│   │       ├── ocr.py
+│   │       └── nlp.py
+│   └── requirements.txt
+│
+├── /ml-models
+│   ├── symptom_checker_model/
+│   │   └── model.pkl
+│   ├── prescription_validator_model/
+│   │   └── model.pkl
+│   └── README.md
+│
+├── /docs
+│   └── README.md
+│
+└── /deployment
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── vercel.json
+    └── railway.json
